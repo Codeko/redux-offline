@@ -1,6 +1,6 @@
 {
   "name": "@redux-offline/redux-offline",
-  "version": "2.5.2-native.3",
+  "version": "2.5.2-native.3-expo36",
   "description": "Redux Offline-First Architecture",
   "main": "lib/index.js",
   "types": "./typings.d.ts",
@@ -61,6 +61,7 @@
     "redux-persist": "^4.6.0"
   },
   "peerDependencies": {
-    "redux": ">=3"
+    "redux": ">=3",
+    "react-native": "*"
   }
 }
